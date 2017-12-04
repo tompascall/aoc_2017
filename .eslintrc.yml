@@ -1,0 +1,34 @@
+extends: airbnb-base
+rules:
+  indent:
+    - error
+    - 4
+  no-restricted-syntax:
+    - error
+    - ForInStatement
+    - LabeledStatement
+    - WithStatement
+  no-nested-ternary: off
+  no-unused-expressions:
+    - error
+    - allowShortCircuit: true
+      allowTernary: true
+  no-use-before-define: off
+  no-plusplus: off
+  no-return-assign:
+      - error
+      - except-parens
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies:
+        - "**/__tests__/*.js"
+globals:
+  describe: true
+  it: true
+  beforeAll: true
+  afterAll: true
+  expect: true
+  beforeEach: true
+  afterEach: true
+  jasmine: true
+  spyOn: true

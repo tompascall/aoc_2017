@@ -1,0 +1,24 @@
+{
+  "name": "aoc_2017",
+  "version": "1.0.0",
+  "description": "Playing around with Advent of Code",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint:watch": "esw -w --changed --ext .js"
+  },
+  "keywords": [
+    "aoc",
+    "tdd",
+    "javascript"
+  ],
+  "author": "tompascall",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-watch": "^3.1.3",
+    "jest": "^21.2.1"
+  }
+}
